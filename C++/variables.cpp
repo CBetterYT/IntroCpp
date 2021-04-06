@@ -31,7 +31,7 @@ int main()
     integer = 123;
     character = 'A';
     doubl = 3.141;
-    boolean = true;
+    boolean = false;
 
   /*
   Above we are assigning a value to each VARIABLE using the assignment operator '='. Characters MUST
@@ -58,7 +58,7 @@ Cout can also be strung together, the only way to get a newline is to
 use a newline operator (\n or endl)
 */
 
-    cout <<"Integer1 = " <<integer1<<"\n"<<"Charcter1 = "<<character1<<"Double1 = "<<doubl1<<"\n"<<"Boolean = " << boolean1 <<"\n";
+    cout <<"Integer1 = " <<integer1<<"\n"<<"Charcter1 = "<<character1<<"\n"<<"Double1 = "<<doubl1<<"\n"<<"Boolean1 = " << boolean1 <<"\n";
 
     return 0;
 }
